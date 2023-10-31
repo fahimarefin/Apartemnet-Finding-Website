@@ -1,0 +1,72 @@
+
+.apartment {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.apartment:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.review {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.review:hover {
+  transform: translateY(-5px);
+}
+
+.user {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-style: italic;
+  color: #777;
+}
+.container-fluid {
+  padding: 0;
+}
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.project-card {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-description {
+  margin-top: 10px;
+}
+
+.view-details {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.view-details:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,129 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  font-weight: bold;
+  color: #555;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="radio"],
+.form-container input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container input[type="password"]:focus,
+.form-container input[type="radio"]:focus,
+.form-container input[type="date"]:focus {
+  border-color: #3498db;
+}
+
+.form-container input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+.form-container .gender-label {
+  margin-right: 10px;
+  font-weight: normal;
+  color: #555;
+}
+
+.form-container .gender-input {
+  margin-bottom: 15px;
+}
+
+.form-container .dob-label {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+}
+
+.form-container .dob-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Additional styling for error messages */
+.form-container .error-message {
+  color: #d9534f;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Additional custom styling */
+body {
+  background-color: #f8f9fa;
+}
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.company-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.form-container label {
+  color: #555555;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
